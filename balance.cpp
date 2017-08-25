@@ -3,7 +3,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-// Added to test git
+// Added to test git 2
 bool ArePair(char opening, char closing)
 {
   cout<<"In Arepair and I have -->" , opening , "  ==" ,closing , "\n";
