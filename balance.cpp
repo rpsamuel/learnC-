@@ -4,6 +4,7 @@
 #include <stdio.h>
 using namespace std;
 // Added to test git 2
+//added this for test3
 bool ArePair(char opening, char closing)
 {
   cout<<"In Arepair and I have -->" , opening , "  ==" ,closing , "\n";
