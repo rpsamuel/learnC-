@@ -14,8 +14,7 @@ before_install:
 script:
   - mkdir build
   - cd build
-  - cmake ..
-  - make
+
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
