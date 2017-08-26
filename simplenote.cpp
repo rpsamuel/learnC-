@@ -3,7 +3,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-
+// try thi too on the coveralls
 void usage(char *prog_name, char *filename){
     printf("Usage: %s <data to add %s>\n", prog_name, filename);
     exit(0);

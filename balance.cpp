@@ -5,6 +5,7 @@
 using namespace std;
 // Added to test git 2
 //added this for test32
+//trying on the coverall CI site
 bool ArePair(char opening, char closing)
 {
   cout<<"In Arepair and I have -->" , opening , "  ==" ,closing , "\n";
